@@ -7,5 +7,5 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
   site: "https://whsk.github.io",
   integrations: [mdx(), sitemap()],
-  base: "/astro-whiskey",
+  base: "/",
 });
